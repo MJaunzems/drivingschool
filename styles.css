@@ -1,0 +1,138 @@
+
+body {
+    background-image: url('inter.png');
+    font-family: Arial, sans-serif;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #f0f9ff;
+    background-color: #282d32;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+
+}
+
+li {
+    margin: 5px;
+}
+
+.karte {
+    padding-left: 55%;
+    position:fixed;
+}
+
+.soc {
+    padding-left: 27%;
+    position: fixed;
+}
+
+
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+
+}
+
+input[type=tel] {
+    width: 510px;
+}
+
+
+    input[type=submit] {
+        border-radius: 25px;
+        width: 200px;
+        height: 50px;
+        background-color: #db545a;
+        color: white;
+        font-size: 20px;
+        border-style: none;
+        display: inline;
+    }
+
+.register {
+    float: right;
+}
+
+.main {
+    padding-left: 40%;
+    padding-right: 40%;
+    position: absolute;
+    width:19%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+[name*="button"] {
+}
+
+.image {
+    position: absolute;
+    padding-left: 34%;
+    padding-top: 100px;
+}
+
+.parole {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.error {
+    color: #FF0000;
+}
+
+.pogas{
+    padding-top:30px;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 19.5%;
+    border-style: solid;
+    border-color: black;
+}
+
+.navigation {
+    float: left;
+    padding-bottom: 15px;
+    padding-left: 110px;
+}
+
+    .navigation a {
+        font-weight: bold;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-style: solid;
+        border-color: #db545a;
+        border-radius: 7px;
+        width: 182px;
+    }
+
+
+        /* Change the link color to #111 (black) on hover */
+        .navigation a:hover {
+            background-color: #db545a;
+            color: white;
+        }
+        
+    .active {
+    background-color: #db545a;
+    text-decoration: underline;
+}
